@@ -499,15 +499,15 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BoardSerialNumber</key>
-		<string>C078421014NCB</string>
+		<string>C02739403CDH69F1F</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
 		<key>Mobile</key>
 		<false/>
 		<key>ProductName</key>
-		<string>Macmini8,1</string>
+		<string>iMac18,1</string>
 		<key>SerialNumber</key>
-		<string>C07XK1Y7JYVX</string>
+		<string>C02VGTYXH7JY</string>
 		<key>SmUUID</key>
 		<string>0C9752BC-3AEC-4277-A918-DCAEC5FAAE78</string>
 	</dict>

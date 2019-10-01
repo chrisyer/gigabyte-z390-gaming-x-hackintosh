@@ -36,49 +36,50 @@
 			<string>AppleDisplay</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
-				<key>AppleDisplayType</key>
-				<integer>2</integer>
-				<key>AppleSense</key>
-				<integer>1854</integer>
 				<key>DisplayProductID</key>
-				<integer>40978</integer>
+				<integer>37415</integer>
 				<key>DisplayProductName</key>
 				<string>DM240</string>
+				<key>DisplaySerialNumber</key>
+				<integer>371392543</integer>
 				<key>DisplayVendorID</key>
 				<integer>1552</integer>
 				<key>IODisplayCapabilityString</key>
 				<data>
-				bW9kZWwoaU1hYyBDZWxsbykgdmNwKDEwIDhEIEI2IEM4
-				IEM5IERGKSB2ZXIoMi4yKQ==
+				cHJvdChtb25pdG9yKSB0eXBlKExDRCkgbW9kZWwoVGh1
+				bmRlcmJvbHQgRGlzcGxheSkgY21kcygwMSAwMiAwMyBF
+				MyBGMykgVkNQKDAyIDA1IDEwIDUyIDYyIDY2IDhEIDkz
+				IEI2IEMwIEM4IEM5IENBIEQ2KDAxIDAyIDAzIDA0KSBE
+				RiBFOSBFQiBFRCBGRCkgbWNjc192ZXIoMi4yKQ==
 				</data>
 				<key>IODisplayConnectFlags</key>
 				<data>
-				hEkAAA==
+				AAAAAA==
 				</data>
 				<key>IODisplayControllerID</key>
 				<data>
-				AQAAAA==
+				AAAA/w==
 				</data>
 				<key>IODisplayEDID</key>
 				<data>
-				AP///////wAGEBKgAAAAABwWAQS1MBt4Im+xp1VMniUM
+				AP///////wAGECeSHwAjFiMWAQS1PCJ4Im+xp1VMniUM
 				UFSEQwAxQEVAYUBhSoHAgUCBgKnAAjqAGHE4LUBYLEUA
-				DyghAAAaZiFQsFEAGzBAcDYADyghAAAcDh8AgFEAHjAQ
-				gBcADyghAAAYAAAA/ABpTWFjCiAgICAgICAgAZc=
+				DyghAAAaZiFQsFEAGzBAcDYADyghAAAcAAAA/wBDMDJK
+				OTAwWEYyR0MKAAAA/ABUaHVuZGVyYm9sdAogAWU=
 				</data>
 				<key>IODisplayFirmwareLevel</key>
 				<data>
-				AQAAAA==
+				//8BOA==
 				</data>
 				<key>IODisplayMCCSVersion</key>
 				<data>
 				AAICAA==
 				</data>
 				<key>IODisplayPrefsKey</key>
-				<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/IGPU@2/AppleIntelFramebuffer@2/display0/AppleDisplay-610-a012</string>
+				<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/IGPU@2/AppleIntelFramebuffer@2/display0/AppleDisplay-610-9227</string>
 				<key>IODisplayTechnologyType</key>
 				<data>
-				//8CAw==
+				AP8CAw==
 				</data>
 			</dict>
 		</dict>
