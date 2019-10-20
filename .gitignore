@@ -1,3 +1,6 @@
-.Trash/
+.Trashs/
 .fseventsd/
 .Spotlight-V100/
+EFI/Microsoft/
+.DS_Store
+._*
