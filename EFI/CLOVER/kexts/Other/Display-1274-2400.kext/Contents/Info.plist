@@ -33,7 +33,7 @@
 			<key>IOProbeScore</key>
 			<integer>5000</integer>
 			<key>IOProviderClass</key>
-			<string>AppleDisplay</string>
+			<string>AppleBacklightDisplay</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>DisplayProductID</key>
@@ -64,8 +64,8 @@
 				<data>
 				AP///////wAGECeSHwAjFiMWAQS1PCJ4Im+xp1VMniUM
 				UFSEQwAxQEVAYUBhSoHAgUCBgKnAAjqAGHE4LUBYLEUA
-				DyghAAAaZiFQsFEAGzBAcDYADyghAAAcAAAA/wBDMDJK
-				OTAwWEYyR0MKAAAA/ABUaHVuZGVyYm9sdAogAWU=
+				DyghAAAaAAAA/QA4TB5TEQAKICAgICAgAAAA/wBDMDJK
+				OTAwWEYyR0MKAAAA/ABUaHVuZGVyYm9sdAogARU=
 				</data>
 				<key>IODisplayFirmwareLevel</key>
 				<data>
@@ -76,11 +76,83 @@
 				AAICAA==
 				</data>
 				<key>IODisplayPrefsKey</key>
-				<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/IGPU@2/AppleIntelFramebuffer@2/display0/AppleDisplay-610-9227</string>
+				<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/IGPU@2/AppleIntelFramebuffer@2/display0/AppleBacklightDisplay-610-9227</string>
 				<key>IODisplayTechnologyType</key>
 				<data>
 				AP8CAw==
 				</data>
+				<key>scale-resolutions</key>
+				<array>
+					<data>
+					AAAPAAAACHAA
+					</data>
+					<data>
+					AAANIAAAB2IA
+					</data>
+					<data>
+					AAALQAAABlQA
+					</data>
+					<data>
+					AAAKAAAABaAA
+					</data>
+					<data>
+					AAAIAAAABIAA
+					</data>
+					<data>
+					AAAKAAAABaAAAAABACAAAA==
+					</data>
+					<data>
+					AAAHgAAABDgAAAABACAAAA==
+					</data>
+					<data>
+					AAAFAAAAAtAAAAABACAAAA==
+					</data>
+					<data>
+					AAAGkAAAA7AAAAAB
+					</data>
+					<data>
+					AAAFoAAAAyoAAAAB
+					</data>
+					<data>
+					AAAFAAAAAtAAAAAB
+					</data>
+					<data>
+					AAAEgAAAAogAAAAB
+					</data>
+					<data>
+					AAAEAAAAAkAAAAAB
+					</data>
+					<data>
+					AAADSAAAAdQAAAAB
+					</data>
+					<data>
+					AAADIAAAAcIAAAAB
+					</data>
+					<data>
+					AAACgAAAAWgAAAAB
+					</data>
+					<data>
+					AAAPAAAACHAAAAAJAKAAAA==
+					</data>
+					<data>
+					AAANIAAAB2IAAAAJAKAAAA==
+					</data>
+					<data>
+					AAALQAAABlQAAAAJAKAAAA==
+					</data>
+					<data>
+					AAAKAAAABaAAAAAJAKAAAA==
+					</data>
+					<data>
+					AAAIAAAABIAAAAAJAKAAAA==
+					</data>
+					<data>
+					AAAHgAAABDgAAAAJAKAAAA==
+					</data>
+					<data>
+					AAAFAAAAAtAAAAAJAKAAAA==
+					</data>
+				</array>
 			</dict>
 		</dict>
 	</dict>

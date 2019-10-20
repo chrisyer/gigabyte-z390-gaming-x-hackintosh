@@ -122,7 +122,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0</string>
+		<string>dart=0 nv_disable=1</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Timeout</key>
@@ -164,6 +164,10 @@
 				</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
+				<key>device-id</key>
+				<data>
+				mz4AAA==
+				</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
 				<key>enable-hdmi20</key>
@@ -172,7 +176,7 @@
 				</data>
 				<key>framebuffer-con0-busid</key>
 				<data>
-				BQAAAA==
+				AQAAAA==
 				</data>
 				<key>framebuffer-con0-enable</key>
 				<data>
@@ -188,15 +192,15 @@
 				</data>
 				<key>framebuffer-con0-pipe</key>
 				<data>
-				CQAAAA==
+				EgAAAA==
 				</data>
 				<key>framebuffer-con0-type</key>
 				<data>
-				AAQAAA==
+				AAgAAA==
 				</data>
 				<key>framebuffer-con1-busid</key>
 				<data>
-				BgAAAA==
+				AgAAAA==
 				</data>
 				<key>framebuffer-con1-enable</key>
 				<data>
@@ -212,7 +216,7 @@
 				</data>
 				<key>framebuffer-con1-pipe</key>
 				<data>
-				CAAAAA==
+				EgAAAA==
 				</data>
 				<key>framebuffer-con1-type</key>
 				<data>
@@ -236,7 +240,7 @@
 				</data>
 				<key>framebuffer-con2-pipe</key>
 				<data>
-				CgAAAA==
+				EgAAAA==
 				</data>
 				<key>framebuffer-con2-type</key>
 				<data>
@@ -266,14 +270,26 @@
 				<data>
 				AQAAAA==
 				</data>
+				<key>framebuffer-fbmem</key>
+				<data>
+				AAAAAA==
+				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
 				AQAAAA==
 				</data>
+				<key>framebuffer-stolenmem</key>
+				<data>
+				AACQAw==
+				</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>
+				AAAAgA==
+				</data>
 				<key>hda-gfx</key>
 				<string>onboard-2</string>
 				<key>model</key>
-				<string>Intel UHD Graphics 630 (Desktop)</string>
+				<string>Intel UHD Graphics 630 (Mobile)</string>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -493,28 +509,62 @@
 		<string>0x3E7</string>
 		<key>ROM</key>
 		<data>
-		eEHm+q54
+		OnPw+q54
 		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
+		<key>BiosReleaseDate</key>
+		<string>08/30/2019</string>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
+		<key>BiosVersion</key>
+		<string>IM191.88Z.F000.B00.1908302134</string>
+		<key>Board-ID</key>
+		<string>Mac-63001698E7A34814</string>
+		<key>BoardManufacturer</key>
+		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02739403CDH69F1F</string>
+		<string>C02934130CDKGQGJA</string>
+		<key>BoardType</key>
+		<integer>10</integer>
+		<key>BoardVersion</key>
+		<string>1.0</string>
+		<key>ChassisAssetTag</key>
+		<string>iMac-Aluminum</string>
+		<key>ChassisManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ChassisType</key>
+		<string>0x09</string>
+		<key>EfiVersion</key>
+		<string>1037.0.73.0.0</string>
+		<key>Family</key>
+		<string>iMac</string>
+		<key>FirmwareFeatures</key>
+		<string>0xFD8FF576</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFFDFFF7F</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
 		<key>Mobile</key>
 		<false/>
+		<key>PlatformFeature</key>
+		<string>0x22</string>
 		<key>ProductName</key>
-		<string>iMac18,1</string>
+		<string>iMac19,2</string>
 		<key>SerialNumber</key>
-		<string>C02VGTYXH7JY</string>
+		<string>C02Z8SYCJWDW</string>
 		<key>SmUUID</key>
-		<string>0C9752BC-3AEC-4277-A918-DCAEC5FAAE78</string>
+		<string>340E02B1-0C72-4338-9FA2-9E6562C1878A</string>
+		<key>Version</key>
+		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>BE03D15E-93B1-4AAD-A9B2-374E87C4D25E</string>
+		<string>35DF8FB4-33DF-454C-B107-EC4FA8F1940C</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
