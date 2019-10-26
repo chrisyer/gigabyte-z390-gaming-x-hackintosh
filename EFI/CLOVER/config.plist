@@ -132,6 +132,11 @@
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
+	<key>CPU</key>
+	<dict>
+		<key>Type</key>
+		<string>0x0701</string>
+	</dict>
 	<key>Devices</key>
 	<dict>
 		<key>Audio</key>
