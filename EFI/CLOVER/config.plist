@@ -122,7 +122,9 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1</string>
+		<string>dart=0 nv_disable=1 -disablegfxfirmware shikigva=1 shiki-id=Mac-7BA5B2D9E42DDD94</string>
+		<key>DefaultLoader</key>
+		<string>BOOTX64.efi</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Timeout</key>
@@ -156,141 +158,6 @@
 				<key>model</key>
 				<string>Cannon Lake PCH cAVS</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>
-				BwCbPg==
-				</data>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,0</string>
-				<key>device-id</key>
-				<data>
-				mz4AAA==
-				</data>
-				<key>device_type</key>
-				<string>VGA compatible controller</string>
-				<key>enable-hdmi20</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con0-busid</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con0-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con0-flags</key>
-				<data>
-				xwMAAA==
-				</data>
-				<key>framebuffer-con0-index</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con0-pipe</key>
-				<data>
-				EgAAAA==
-				</data>
-				<key>framebuffer-con0-type</key>
-				<data>
-				AAgAAA==
-				</data>
-				<key>framebuffer-con1-busid</key>
-				<data>
-				AgAAAA==
-				</data>
-				<key>framebuffer-con1-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con1-flags</key>
-				<data>
-				xwMAAA==
-				</data>
-				<key>framebuffer-con1-index</key>
-				<data>
-				AgAAAA==
-				</data>
-				<key>framebuffer-con1-pipe</key>
-				<data>
-				EgAAAA==
-				</data>
-				<key>framebuffer-con1-type</key>
-				<data>
-				AAgAAA==
-				</data>
-				<key>framebuffer-con2-busid</key>
-				<data>
-				BAAAAA==
-				</data>
-				<key>framebuffer-con2-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con2-flags</key>
-				<data>
-				xwMAAA==
-				</data>
-				<key>framebuffer-con2-index</key>
-				<data>
-				AwAAAA==
-				</data>
-				<key>framebuffer-con2-pipe</key>
-				<data>
-				EgAAAA==
-				</data>
-				<key>framebuffer-con2-type</key>
-				<data>
-				AAgAAA==
-				</data>
-				<key>framebuffer-con3-busid</key>
-				<data>
-				AAAAAA==
-				</data>
-				<key>framebuffer-con3-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con3-flags</key>
-				<data>
-				IAAAAA==
-				</data>
-				<key>framebuffer-con3-index</key>
-				<data>
-				/////w==
-				</data>
-				<key>framebuffer-con3-pipe</key>
-				<data>
-				AAAAAA==
-				</data>
-				<key>framebuffer-con3-type</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-fbmem</key>
-				<data>
-				AAAAAA==
-				</data>
-				<key>framebuffer-patch-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-stolenmem</key>
-				<data>
-				AACQAw==
-				</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>
-				AAAAgA==
-				</data>
-				<key>hda-gfx</key>
-				<string>onboard-2</string>
-				<key>model</key>
-				<string>Intel UHD Graphics 630 (Mobile)</string>
-			</dict>
 		</dict>
 		<key>USB</key>
 		<dict>
@@ -319,19 +186,23 @@
 			<true/>
 		</dict>
 		<key>Theme</key>
-		<string>myser</string>
+		<string>minimal</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
-			<false/>
+			<true/>
 			<key>Intel</key>
-			<false/>
+			<true/>
 			<key>NVidia</key>
 			<false/>
 		</dict>
+		<key>RadeonDeInit</key>
+		<true/>
+		<key>ig-platform-id</key>
+		<string>0x3E9B0007</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -509,41 +380,41 @@
 		<string>0x3E7</string>
 		<key>ROM</key>
 		<data>
-		OnPw+q54
+		Xc8o5KQd
 		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>09/13/2019</string>
+		<string>09/17/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM181.88Z.F000.B00.1909131925</string>
+		<string>IMP11.88Z.F000.B00.1909172024</string>
 		<key>Board-ID</key>
-		<string>Mac-4B682C642B45593E</string>
+		<string>Mac-7BA5B2D9E42DDD94</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02750301J9H69FJC</string>
+		<string>C02729701J9JG361F</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
 		<string>1.0</string>
 		<key>ChassisAssetTag</key>
-		<string>iMac-Aluminum</string>
+		<string>iMacPro-Aluminum</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>178.0.0.0.0</string>
+		<string>1037.0.78.0.0</string>
 		<key>Family</key>
-		<string>iMac</string>
+		<string>iMac Pro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFC0FE176</string>
+		<string>0xFD8FF53F</string>
 		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF7F</string>
+		<string>0xFF9FFF3F</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>Manufacturer</key>
@@ -553,11 +424,11 @@
 		<key>PlatformFeature</key>
 		<string>0x00</string>
 		<key>ProductName</key>
-		<string>iMac18,1</string>
+		<string>iMacPro1,1</string>
 		<key>SerialNumber</key>
-		<string>C02VTWZRH7JY</string>
+		<string>C02V300DHX87</string>
 		<key>SmUUID</key>
-		<string>924E8C20-22A6-4B79-A556-6AFCE0FCA48F</string>
+		<string>5E2D86EB-4F15-4C03-965D-531207E4A41D</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
