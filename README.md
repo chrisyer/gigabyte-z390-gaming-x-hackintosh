@@ -16,7 +16,7 @@
 macOS Mojave 10.14.6
 
 ## BIOS版本
--version F7
+- F7
 
 ## 是否正常工作
 - 声卡正常工作
