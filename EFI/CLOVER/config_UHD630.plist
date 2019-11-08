@@ -501,70 +501,17 @@
 			</dict>
 		</array>
 	</dict>
-	<key>RtVariables</key>
-	<dict>
-		<key>BooterConfig</key>
-		<string>0x28</string>
-		<key>CsrActiveConfig</key>
-		<string>0x3E7</string>
-		<key>ROM</key>
-		<data>
-		OnPw+q54
-		</data>
-	</dict>
 	<key>SMBIOS</key>
 	<dict>
-		<key>BiosReleaseDate</key>
-		<string>09/13/2019</string>
-		<key>BiosVendor</key>
-		<string>Apple Inc.</string>
-		<key>BiosVersion</key>
-		<string>IM181.88Z.F000.B00.1909131925</string>
-		<key>Board-ID</key>
-		<string>Mac-4B682C642B45593E</string>
-		<key>BoardManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>BoardSerialNumber</key>
-		<string>C02750301J9H69FJC</string>
-		<key>BoardType</key>
-		<integer>10</integer>
-		<key>BoardVersion</key>
-		<string>1.0</string>
-		<key>ChassisAssetTag</key>
-		<string>iMac-Aluminum</string>
-		<key>ChassisManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>ChassisType</key>
-		<string>0x09</string>
-		<key>EfiVersion</key>
-		<string>178.0.0.0.0</string>
-		<key>Family</key>
-		<string>iMac</string>
-		<key>FirmwareFeatures</key>
-		<string>0xFC0FE176</string>
-		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF7F</string>
-		<key>LocationInChassis</key>
-		<string>Part Component</string>
-		<key>Manufacturer</key>
-		<string>Apple Inc.</string>
 		<key>Mobile</key>
 		<false/>
-		<key>PlatformFeature</key>
-		<string>0x00</string>
 		<key>ProductName</key>
 		<string>iMac18,1</string>
 		<key>SerialNumber</key>
-		<string>C02VTWZRH7JY</string>
-		<key>SmUUID</key>
-		<string>924E8C20-22A6-4B79-A556-6AFCE0FCA48F</string>
-		<key>Version</key>
-		<string>1.0</string>
+		<string>C02TC0SXH7JY</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>CustomUUID</key>
-		<string>35DF8FB4-33DF-454C-B107-EC4FA8F1940C</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>

@@ -383,64 +383,18 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x3E7</string>
-		<key>ROM</key>
-		<data>
-		Xc8o5KQd
-		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
-		<key>BiosReleaseDate</key>
-		<string>09/17/2019</string>
-		<key>BiosVendor</key>
-		<string>Apple Inc.</string>
-		<key>BiosVersion</key>
-		<string>IMP11.88Z.F000.B00.1909172024</string>
-		<key>Board-ID</key>
-		<string>Mac-7BA5B2D9E42DDD94</string>
-		<key>BoardManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>BoardSerialNumber</key>
-		<string>C02729701J9JG361F</string>
-		<key>BoardType</key>
-		<integer>10</integer>
-		<key>BoardVersion</key>
-		<string>1.0</string>
-		<key>ChassisAssetTag</key>
-		<string>iMacPro-Aluminum</string>
-		<key>ChassisManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>ChassisType</key>
-		<string>0x09</string>
-		<key>EfiVersion</key>
-		<string>1037.0.78.0.0</string>
-		<key>Family</key>
-		<string>iMac Pro</string>
-		<key>FirmwareFeatures</key>
-		<string>0xFD8FF53F</string>
-		<key>FirmwareFeaturesMask</key>
-		<string>0xFF9FFF3F</string>
-		<key>LocationInChassis</key>
-		<string>Part Component</string>
-		<key>Manufacturer</key>
-		<string>Apple Inc.</string>
 		<key>Mobile</key>
 		<false/>
-		<key>PlatformFeature</key>
-		<string>0x00</string>
 		<key>ProductName</key>
 		<string>iMacPro1,1</string>
 		<key>SerialNumber</key>
-		<string>C02V300DHX87</string>
-		<key>SmUUID</key>
-		<string>5E2D86EB-4F15-4C03-965D-531207E4A41D</string>
-		<key>Version</key>
-		<string>1.0</string>
+		<string>C02VL3ZQHX87</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>CustomUUID</key>
-		<string>35DF8FB4-33DF-454C-B107-EC4FA8F1940C</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
