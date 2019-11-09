@@ -15,6 +15,7 @@
 
 ## 截图
 ![预览图](./screenshot/1.png)
+![预览图](./screenshot/2.png)
 
 ## 系统安装版本
 macOS Mojave 10.14.6
