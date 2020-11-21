@@ -15,7 +15,7 @@
 
 ## 截图
 ![预览图](./screenshot/1.png)
-![预览图](./screenshot/2.png)
+
 
 ## 系统安装版本
 macOS Big Sur 11.0.1
@@ -32,5 +32,7 @@ macOS Big Sur 11.0.1
 - USB正常
 - 硬解正常
 
+## 已知问题
+  iMessage 有点问题,到时候在弄下
 
 ## 其他
