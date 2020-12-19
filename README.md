@@ -18,7 +18,7 @@
 
 
 ## 系统安装版本
-macOS Big Sur 11.0.1
+macOS Big Sur 11.1
 
 ## BIOS版本
 - F10
