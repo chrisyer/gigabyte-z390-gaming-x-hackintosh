@@ -2,6 +2,8 @@
 
 新版本使用OPENCORE
 
+OPENCORE版本:0.7.1
+
 ## 配置
   
 |   |  型号 |
@@ -18,7 +20,7 @@
 
 
 ## 系统安装版本
-macOS Big Sur 11.1
+macOS Big Sur 11.5.1
 
 ## BIOS版本
 - F10
@@ -36,3 +38,4 @@ macOS Big Sur 11.1
   iMessage 有点问题,到时候在弄下
 
 ## 其他
+  为什么不试试重置nvram呢?
