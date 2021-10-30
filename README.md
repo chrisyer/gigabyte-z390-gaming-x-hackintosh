@@ -1,4 +1,4 @@
-# 个人黑苹果EFI配置
+# 个人黑苹果EFI配置（不折腾了，去买macbook pro了）
 
 新版本使用OPENCORE
 
