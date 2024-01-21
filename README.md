@@ -1,8 +1,10 @@
-# 个人黑苹果EFI配置（不折腾了，去买macbook pro了）
+# 个人黑苹果EFI配置(AMD 6700XT)
 
-新版本使用OPENCORE
+**OPENCORE版本**:0.9.7
 
-OPENCORE版本:0.7.1
+## 注意点
+
+因为我有一个三星的PM981,所以在SSDT里使用**SSDT-DNVME.aml**屏蔽了这个m2接口,如果没有PM981,可以去掉这个SSDT,否则会有一个m2接口不识别
 
 ## 配置
   
@@ -10,32 +12,34 @@ OPENCORE版本:0.7.1
 | ------------ | ------------ |
 | 主板 | Gigabyte Z390 gaming X  |
 | CPU |  I7-9700K |
-| 显卡  |   RX580/UHD 630  |
-| 内存  |  16GB 2666MHz DDR4 X 1 |
-| 存储 | 500G机械硬盘  |
+| 显卡  |   **AMD RX 6700XT**  |
+| 内存  |  32GB 2666MHz DDR4 X 2 |
+| 存储 | 256G固态  |
 | 网卡 | BCM943602CS |
 
 ## 截图
-![预览图](./screenshot/1.png)
+
+![预览图](./screenshot/info.jpg)
 
 
 ## 系统安装版本
-macOS Big Sur 11.5.1
+
+macOS Ventura 13.6.3
 
 ## BIOS版本
+
 - F10
 
 ## 是否正常工作
+
 - 声卡正常工作
 - 无线网卡免驱
 - 蓝牙正常，支持Airdrop
 - 睡眠正常
-- 显卡正常
+- 显卡正常(注意显卡为6700xt,使用的是NootRX)
 - USB正常
 - 硬解正常
 
-## 已知问题
-  iMessage 有点问题,到时候在弄下
+## TODO
 
-## 其他
-  为什么不试试重置nvram呢?
+- CPU型号正确展示 
