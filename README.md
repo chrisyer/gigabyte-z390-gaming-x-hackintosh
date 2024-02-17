@@ -24,7 +24,7 @@
 
 ## 系统安装版本
 
-macOS Ventura 13.6.3
+macOS Ventura 14.3.1
 
 ## BIOS版本
 
