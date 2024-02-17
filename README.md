@@ -24,7 +24,7 @@
 
 ## 系统安装版本
 
-macOS Ventura 14.3.1
+macOS Sonoma 14.3.1
 
 ## BIOS版本
 
